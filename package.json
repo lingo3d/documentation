@@ -1,0 +1,25 @@
+{
+    "name": "lingo3d-documentation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vitepress dev docs",
+        "build": "vitepress build docs",
+        "serve": "vitepress serve docs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@algolia/client-search": "^4.14.2",
+        "vitepress": "1.0.0-alpha.29",
+        "vue": "^3.2.45"
+    },
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": false
+    }
+}
